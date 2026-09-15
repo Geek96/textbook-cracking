@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/AI_Agent-Skill-7C3AED?style=for-the-badge" alt="AI Agent Skill"/>
-  <img src="https://img.shields.io/badge/version-0.1.0-10B981?style=for-the-badge" alt="Version 0.1.0"/>
+  <img src="https://img.shields.io/badge/version-0.2.0-10B981?style=for-the-badge" alt="Version 0.2.0"/>
   <img src="https://img.shields.io/github/license/Geek96/textbook-cracking?style=for-the-badge&color=6B7280" alt="MIT License"/>
 </p>
 
@@ -36,9 +36,12 @@
   intuition or clarifying counterexample lives under a labeled
   `## 🧠 理解扩展` section, never mixed into what the textbook itself says
 - **Never publishes the textbook's own exercises** — extracts exercise
-  *location* metadata for cross-referencing, never the exercise text itself;
-  optional Agent-*original* practice problems are a clearly separate,
-  on-request-only page type
+  *location* metadata for cross-referencing, never the exercise text
+  itself. Agent-original practice-problem/week-practice generation is the
+  separate [course-manager](https://github.com/Geek96/course-manager)
+  skill's job (course-scoped: reads a syllabus or slide deck to ground
+  range/difficulty), not this skill's — see
+  `references/course-manager-integration.md`
 - **Agent-managed-region marker discipline** — only ever touches the
   sections of a wiki file it generated; your own handwritten notes in the
   same file are never touched
@@ -168,12 +171,12 @@ textbook-cracking/
 │   │   │   └── primary-source-reader.md
 │   │   ├── obsidian-core.md              # portable Obsidian authoring baseline
 │   │   ├── obsidian-rules.md             # domain-specific authoring rules
-│   │   └── course-manager-integration.md # optional CanvasManager wiring
+│   │   └── course-manager-integration.md # optional CanvasManager/CourseManager wiring
 │   ├── templates/
 │   │   ├── MOC-template.md               # shared across all models
 │   │   ├── 概念-template.md               # shared across all models
-│   │   ├── math/                         # 章节摘要, 证明, 练习题
-│   │   ├── cs/                           # 章节摘要, 案例, 周次, 选择题*, 编程练习
+│   │   ├── math/                         # 章节摘要, 证明
+│   │   ├── cs/                           # 章节摘要, 案例, 周次
 │   │   └── primary-source-reader/        # 章节摘要, 文献条目
 │   └── scripts/validate_wiki.py          # structural validator, stdlib only
 ├── .claude-plugin/plugin.json
