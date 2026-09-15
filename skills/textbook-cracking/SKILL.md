@@ -7,6 +7,8 @@ description: Deconstruct textbooks and textbook-like PDFs into a faithful, trace
 
 Turn a textbook into a compact evidence-backed wiki without rewriting it as a new textbook. Preserve the author's structure, order, and the substance of what the book actually establishes. Omit exercises and routine filler by default — what counts as "filler" is content-model-specific, see below.
 
+**Obsidian is a real dependency, not a formatting nicety.** Wikilinks, callouts, frontmatter, and the agent-managed-region convention all depend on it. Confirm the target folder is inside an Obsidian vault before assuming it — installing Obsidian and creating/registering a vault are Obsidian's own concern, not this skill's; see `../../../CanvasManager/skills/canvas-manager/SKILL.md`'s Obsidian note if that ground hasn't been covered yet.
+
 ## Read the applicable rules
 
 Before acting, read:
