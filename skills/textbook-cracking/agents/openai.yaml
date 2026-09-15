@@ -1,0 +1,4 @@
+interface:
+  display_name: "Textbook Cracking"
+  short_description: "将教材拆解为忠实、可追溯的 Obsidian Wiki（数学、CS、史料读本等）"
+  default_prompt: "Use $textbook-cracking to deconstruct a textbook chapter into faithful chapter summaries and per-content-model detail pages (proofs for math, case studies for CS, document entries for a primary-source reader)."
