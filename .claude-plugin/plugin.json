@@ -1,6 +1,6 @@
 {
   "name": "textbook-cracking",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Deconstruct textbooks and textbook-like PDFs into a faithful, traceable Obsidian wiki — chapter summaries in the book's own order, plus per-content-model detail pages (proofs for math, case studies for CS, document entries for a primary-source reader).",
   "author": {
     "name": "Geek96",

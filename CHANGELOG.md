@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.1
+
+Documented this skill's role in **CourseOS**: the optional Content Driver
+component (see [course-manager](https://github.com/Geek96/course-manager)'s
+`FRAMEWORK.md`). Docs-only — also fixed a stale README example prompt
+("generate practice problems...") left over from before that moved to
+course-manager in 0.2.0.
+
 ## 0.2.0
 
 **Breaking**: Agent-original practice-content generation moved to the

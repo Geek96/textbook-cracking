@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/AI_Agent-Skill-7C3AED?style=for-the-badge" alt="AI Agent Skill"/>
-  <img src="https://img.shields.io/badge/version-0.2.0-10B981?style=for-the-badge" alt="Version 0.2.0"/>
+  <img src="https://img.shields.io/badge/version-0.2.1-10B981?style=for-the-badge" alt="Version 0.2.1"/>
   <img src="https://img.shields.io/github/license/Geek96/textbook-cracking?style=for-the-badge&color=6B7280" alt="MIT License"/>
 </p>
 
@@ -55,6 +55,18 @@
   CanvasManager's own `wiki/course_content/`/`wiki/info/` folders — see
   `references/course-manager-integration.md`. Fully usable standalone too,
   with no CanvasManager involved at all.
+
+---
+
+## 🧱 CourseOS
+
+In a canvas-manager-managed course, this skill fills the optional
+**Content Driver** role in [CourseOS](https://github.com/Geek96/course-manager)
+(see that repo's `FRAMEWORK.md`) — any tool that reads a textbook and
+produces the `wiki/textbook_breakdown/` shape documented in
+`references/course-manager-integration.md` could fill this role instead.
+Nothing here depends on being part of CourseOS; this integration is purely
+opt-in.
 
 ---
 
@@ -150,7 +162,6 @@ compression policy.
 > Ingest chapter 3 of this textbook into my Obsidian vault
 > Update the concept pages after I re-read chapter 5
 > Verify chapter 2 against the source PDF
-> Generate practice problems for the sections my course syllabus actually assigned
 ```
 
 ---
